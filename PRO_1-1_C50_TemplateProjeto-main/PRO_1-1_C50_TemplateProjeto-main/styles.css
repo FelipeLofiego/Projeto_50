@@ -1,0 +1,40 @@
+.menu {
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 100px; /* Defina a altura do menu */
+}
+
+.menu a {
+  text-decoration: none; /* Remove a decoração de link padrão */
+  color: white;
+  margin: 0 15px; /* Adicione margem entre os itens do menu */
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+  width: 310px;
+  font-family: fantasy;
+}
